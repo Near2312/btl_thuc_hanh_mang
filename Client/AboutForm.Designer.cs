@@ -27,8 +27,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.DedicationBox = new System.Windows.Forms.TextBox();
             this.OKBTN = new System.Windows.Forms.Button();
+            this.DedicationBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ExtractColloquorBTN = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,6 +66,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "A Dedication";
             // 
+            // OKBTN
+            // 
+            this.OKBTN.Location = new System.Drawing.Point(339, 519);
+            this.OKBTN.Name = "OKBTN";
+            this.OKBTN.Size = new System.Drawing.Size(75, 23);
+            this.OKBTN.TabIndex = 4;
+            this.OKBTN.Text = "OK";
+            this.OKBTN.UseVisualStyleBackColor = true;
+            this.OKBTN.Click += new System.EventHandler(this.OKBTN_Click);
+            // 
             // DedicationBox
             // 
             this.DedicationBox.Location = new System.Drawing.Point(6, 19);
@@ -76,16 +86,6 @@
             this.DedicationBox.Size = new System.Drawing.Size(392, 302);
             this.DedicationBox.TabIndex = 0;
             this.DedicationBox.Text = resources.GetString("DedicationBox.Text");
-            // 
-            // OKBTN
-            // 
-            this.OKBTN.Location = new System.Drawing.Point(339, 519);
-            this.OKBTN.Name = "OKBTN";
-            this.OKBTN.Size = new System.Drawing.Size(75, 23);
-            this.OKBTN.TabIndex = 4;
-            this.OKBTN.Text = "OK";
-            this.OKBTN.UseVisualStyleBackColor = true;
-            this.OKBTN.Click += new System.EventHandler(this.OKBTN_Click);
             // 
             // label3
             // 
